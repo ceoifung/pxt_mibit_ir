@@ -15,11 +15,9 @@ namespace IR {
     }
 
     /**
-     * describe your function here
-     * @param n describe parameter here, eg: 5
-     * @param s describe parameter here, eg: "Hello"
-     * @param e describe parameter here
+     * Read infrared value
      */
+    
     //% weight=60
     //% block="read IR key value"
     export function IR_read(): number {
@@ -28,9 +26,9 @@ namespace IR {
     }
 
     /**
-     * describe your function here
-     * @param value describe value here, eg: 5
+     * The callback function when infrared information is received
      */
+
     //% weight=50
     //% block="on IR received"
     //% draggableParameters
