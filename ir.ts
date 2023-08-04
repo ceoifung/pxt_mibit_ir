@@ -9,7 +9,7 @@ namespace IR {
     let irstate: number;
     let irData: number = -1;
 
-    //% shim=DFRobotIR::irCode
+    //% shim=XiaoRGEEKIR::irCode
     function irCode(): number {
         return 0;
     }
@@ -21,7 +21,7 @@ namespace IR {
     //% weight=60
     //% block="read IR key value"
     export function IR_read(): number {
-        pins.setPull(DigitalPin.P16, PinPullMode.PullUp)
+        pins.setPull(DigitalPin.P8, PinPullMode.PullUp)
         return valuotokeyConversion();
     }
 
@@ -33,7 +33,7 @@ namespace IR {
     //% block="on IR received"
     //% draggableParameters
     export function IR_callbackUser(cb: (message: number) => void) {
-        pins.setPull(DigitalPin.P16, PinPullMode.PullUp)
+        pins.setPull(DigitalPin.P8, PinPullMode.PullUp)
         state = 1;
         control.onEvent(11, 22, function () {
             cb(data1)
