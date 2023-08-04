@@ -1,7 +1,7 @@
 {
-    "name": "ir",
-    "version": "1.0.3",
-    "description": "",
+    "name": "Mibit_IR_v2",
+    "version": "2.0.0",
+    "description": "Extension for MiBit micro:bit IR receiver module v2.0",
     "dependencies": {
         "core": "*",
         "microphone": "*"
@@ -13,12 +13,6 @@
         "ReceiverIR.cpp",
         "_locales/zh-cn/ir-strings.json",
         "_locales/zh-tw/ir-strings.json",
-        "_locales/pt/ir-strings.json",
-        "_locales/fr/ir-strings.json",
-        "_locales/es/ir-strings.json",
-        "_locales/nb/ir-strings.json",
-        "_locales/ru/ir-strings.json",
-        "_locales/ja/ir-strings.json",
         "ir.ts"
     ],
     "testFiles": [
