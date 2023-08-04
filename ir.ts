@@ -62,7 +62,7 @@ namespace MIBIT_IR {
      */
     
     //% weight=60
-    //% block="read IR key value"
+    //% blockId=MIBIT_IR_IR_read block="read IR key value"
     export function IR_read(): number {
         pins.setPull(DigitalPin.P8, PinPullMode.PullUp)
         return valuotokeyConversion();
@@ -79,7 +79,7 @@ namespace MIBIT_IR {
      */
 
     //% weight=50
-    //% block="on IR received"
+    //% blockId=MIBIT_IR_IR_callbackUser block="on IR received"
     //% draggableParameters
     export function IR_callbackUser(cb: (message: number) => void) {
         pins.setPull(DigitalPin.P8, PinPullMode.PullUp)
