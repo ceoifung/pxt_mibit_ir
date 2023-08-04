@@ -45,8 +45,8 @@ enum RemoteButton
 /**
  * Custom blocks
  */
-//% weight=100 color=#0fbc11 icon="\uf1eb" block="IR"
-namespace IR {
+//% weight=100 color=#0fbc11 icon="\uf1eb" block="MIBIT_IR"
+namespace MIBIT_IR {
     let state: number;
     let data1: number;
     let irstate: number;

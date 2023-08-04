@@ -1,5 +1,5 @@
 {
-    "IR.IR_read|block": "紅外線數值",
-    "IR.IR_callbackUser|block": "當接收到紅外線時運行",
-    "IR.IR_getRemoteKey|block": "|%key"
+    "MIBIT_IR.IR_read|block": "紅外線數值",
+    "MIBIT_IR.IR_callbackUser|block": "當接收到紅外線時運行",
+    "MIBIT_IR.IR_getRemoteKey|block": "|%key"
 }
